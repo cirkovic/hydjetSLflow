@@ -1,0 +1,1454 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/cirkovic/837029004> on <b6f8af15fe.cern.ch>
+
+Contacting lcg-voms2.cern.ch:15002 [/DC=ch/DC=cern/OU=computers/CN=lcg-voms2.cern.ch] "cms"...
+Remote VOMS server contacted succesfully.
+
+
+Created proxy in /tmp/x509up_u56359.
+
+Your proxy is valid until Wed Aug 03 01:42:25 CEST 2016
+hadd -k -f /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3618.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_371.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_249.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_680.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_542.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_99.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4213.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_828.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3115.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2657.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2465.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2275.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4438.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_875.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2693.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2228.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2315.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_612.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1039.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2008.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3111.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3122.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4478.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2666.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3134.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4998.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1287.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3459.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3474.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3268.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2775.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3057.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2326.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4712.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_822.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4327.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1489.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_291.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3617.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2274.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4766.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_787.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3124.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4286.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2306.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1478.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2140.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2706.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1857.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2147.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3726.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1942.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2122.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3083.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_689.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4464.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1069.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2722.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1449.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2196.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1632.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3220.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2044.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4023.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_888.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4451.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1131.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1240.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3250.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3612.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4907.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3772.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4477.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3730.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2600.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2354.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_30.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2187.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1177.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_705.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_948.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3982.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4215.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_230.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4749.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3343.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_890.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3972.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_901.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1581.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3893.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3001.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_207.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0000/output_4000_2_0-5_2.0_556.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1301.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0004/output_4000_2_0-5_2.0_4734.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2697.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0002/output_4000_2_0-5_2.0_2566.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0001/output_4000_2_0-5_2.0_1961.root
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No servers are available to read the file.
+
+Error in <TFileMerger::AddFile>: cannot open file root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+hadd exiting due to error in root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+EXITCODE: 1
+hadd Target file: /pool/lsf/cirkovic/837029004/tmp.dK30c2fD5P/output_4000_2_0-5_2.0_3434.root
+hadd Source file 1: root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160724_144044/160724_124053/0003/output_4000_2_0-5_2.0_3434.root
+
+Job finished at Wed Jul 27 09:18:55 CEST 2016 on node 
+ under linux version Scientific Linux CERN SLC release 6.8 (Carbon)
+
+CERN statistics: This process used approximately : 0:17:35 KSI2K hours (1055 KSI2K seconds)
+                 This process corresponds to     : 1:08:38 HS06  hours (4118 HS06  seconds)

@@ -1,0 +1,29 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/cirkovic/839954001> on <b6baa7e58b.cern.ch>
+
+/afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab_20160725_145219 The server answered with an error. Server answered with: Execution error Reason is: Exception while contacting PhEDEX. Error Id: 1a8d105be8716f05e8ec90caa73c22fc
+Contacting voms2.cern.ch:15002 [/DC=ch/DC=cern/OU=computers/CN=voms2.cern.ch] "cms"...
+Remote VOMS server contacted succesfully.
+
+
+Created proxy in /tmp/x509up_u56359.
+
+Your proxy is valid until Mon Aug 08 15:00:48 CEST 2016
+hadd -f /pool/lsf/cirkovic/839954001/tmp.fE0jxIgEZX/The The server answered with an error. Server answered with: Execution error Reason is: Exception while contacting
+hadd -f /pool/lsf/cirkovic/839954001/tmp.fE0jxIgEZX/PhEDEX. PhEDEX. Error Id: 1a8d105be8716f05e8ec90caa73c22fc
+hadd Target file: /pool/lsf/cirkovic/839954001/tmp.fE0jxIgEZX/PhEDEX.
+hadd Target file: /pool/lsf/cirkovic/839954001/tmp.fE0jxIgEZX/The
+hadd Source file 1: PhEDEX.
+Error in <TFile::TFile>: file PhEDEX. does not exist
+Error in <TFileMerger::AddFile>: cannot open file PhEDEX.
+hadd exiting due to error in PhEDEX.
+hadd Source file 1: The
+Error in <TFile::TFile>: file The does not exist
+Error in <TFileMerger::AddFile>: cannot open file The
+hadd exiting due to error in The
+
+Job finished at Sun Jul 31 15:01:00 CEST 2016 on node 
+ under linux version Scientific Linux CERN SLC release 6.8 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:41 KSI2K hours (41 KSI2K seconds)
+                 This process corresponds to     : 0:02:41 HS06  hours (161 HS06  seconds)

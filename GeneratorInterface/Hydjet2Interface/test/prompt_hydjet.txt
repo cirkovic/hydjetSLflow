@@ -1,0 +1,1490 @@
+CIRKOVICARG ['12', '2', '0-100', '2.0', '2']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '0']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '5']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '4']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '6']
+CIRKOVICARG ['16', '2', '0-100', '2.0', '7']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '3']
+CIRKOVICARG ['12', '2', '0-100', '2.0', '1']
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+%MSG-wWhich deltaEtaCut=2
+ Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(47)       changed from        1.00000 to        0.67000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+%MSG-w Configuration:  Hydjet2Analyzer_new_my_pt_mult:ana@ctor  23-Jul-2016 10:01:35 CEST pre-events
+Warning:
+	string HepMCProductLabel = "Hydjet2Analyzer_new_my_pt_mult"
+is deprecated, please update your config file to use
+	InputTag HepMCProductLabel = Hydjet2Analyzer_new_my_pt_mult
+%MSG
+Which deltaEtaCut=2
+1                                                                              
+ ******************************************************************************
+ ******************************************************************************
+ **                                                                          **
+ **                                                                          **
+ **              *......*                  Welcome to the Lund Monte Carlo!  **
+ **         *:::!!:::::::::::*                                               **
+ **      *::::::!!::::::::::::::*          PPP  Y   Y TTTTT H   H III   A    **
+ **    *::::::::!!::::::::::::::::*        P  P  Y Y    T   H   H  I   A A   **
+ **   *:::::::::!!:::::::::::::::::*       PPP    Y     T   HHHHH  I  AAAAA  **
+ **   *:::::::::!!:::::::::::::::::*       P      Y     T   H   H  I  A   A  **
+ **    *::::::::!!::::::::::::::::*!       P      Y     T   H   H III A   A  **
+ **      *::::::!!::::::::::::::* !!                                         **
+ **      !! *:::!!:::::::::::*    !!       This is PYTHIA version 6.426      **
+ **      !!     !* -><- *         !!       Last date of change: 16 Nov 2011  **
+ **      !!     !!                !!                                         **
+ **      !!     !!                !!       Now is  0 Jan 2000 at  0:00:00    **
+ **      !!                       !!                                         **
+ **      !!        lh             !!       Disclaimer: this program comes    **
+ **      !!                       !!       without any guarantees. Beware    **
+ **      !!                 hh    !!       of errors and use common sense    **
+ **      !!    ll                 !!       when interpreting results.        **
+ **      !!                       !!                                         **
+ **      !!                                Copyright T. Sjostrand (2011)     **
+ **                                                                          **
+ ** An archive of program versions and documentation is found on the web:    **
+ ** http://www.thep.lu.se/~torbjorn/Pythia.html                              **
+ **                                                                          **
+ ** When you cite this program, the official reference is to the 6.4 manual: **
+ ** T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026                 **
+ ** (LU TP 06-13, FERMILAB-PUB-06-052-CD-T) [hep-ph/0603175].                **
+ **                                                                          **
+ ** Also remember that the program, to a large extent, represents original   **
+ ** physics research. Other publications of special relevance to your        **
+ ** studies may therefore deserve separate mention.                          **
+ **                                                                          **
+ ** Main author: Torbjorn Sjostrand; Department of Theoretical Physics,      **
+ **   Lund University, Solvegatan 14A, S-223 62 Lund, Sweden;                **
+ **   phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se              **
+ ** Author: Stephen Mrenna; Computing Division, GDS Group,                   **
+ **   Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA; **
+ **   phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                 **
+ ** Author: Peter Skands; CERN/PH-TH, CH-1211 Geneva, Switzerland            **
+ **   phone: + 41 - 22 - 767 24 47; e-mail: peter.skands@cern.ch             **
+ **                                                                          **
+ **                                                                          **
+ ******************************************************************************
+ ******************************************************************************
+     MSEL           changed from              1 to              1
+     MSTU(21)       changed from              2 to              1
+     PARU(14)       changed from        2.00000 to        1.00000
+     MSTJ(21)       changed from              2 to              1
+     MSTP(2)        changed from              1 to              1
+     MSTJ(22)       changed from              1 to              2
+     PARJ(71)       changed from       10.00000 to       10.00000
+     MSTP(52)       changed from              1 to              1
+     mstp(122)      changed from              1 to              0
+     mstp(51)       changed from              7 to              7
+     mstp(3)        changed from              2 to              2
+     parp(62)       changed from        1.00000 to        2.90000
+     parp(64)       changed from        1.00000 to        0.14000
+     parp(67)       changed from        4.00000 to        2.65000
+     mstp(68)       changed from              3 to              3
+     parp(71)       changed from        4.00000 to        4.00000
+     parj(81)       changed from        0.29000 to        0.29000
+     parj(82)       changed from        1.00000 to        1.65000
+     mstp(33)       changed from              0 to              0
+     mstp(81)       changed from              1 to              1
+     parp(82)       changed from        2.00000 to        1.90000
+     parp(89)       changed from     1800.00000 to     1800.00000
+     parp(90)       changed from        0.25000 to        0.22000
+     mstp(82)       changed from              4 to              4
+     parp(83)       changed from        0.50000 to        0.83000
+     parp(84)       changed from        0.40000 to        0.60000
+     parp(85)       changed from        0.90000 to        0.86000
+     parp(86)       changed from        0.95000 to        0.93000
+     mstp(91)       changed from              1 to              1
+     parp(91)       changed from        2.00000 to        2.10000
+     parp(93)       changed from        5.00000 to        5.00000
+     mstj(11)       changed from              4 to              5
+     parj(1)        changed from        0.10000 to        0.07300
+     parj(2)        changed from        0.30000 to        0.20000
+     parj(3)        changed from        0.40000 to        0.94000
+     parj(4)        changed from        0.05000 to        0.03200
+     parj(11)       changed from        0.50000 to        0.31000
+     parj(12)       changed from        0.60000 to        0.40000
+     parj(13)       changed from        0.75000 to        0.54000
+     parj(21)       changed from        0.36000 to        0.32500
+     parj(25)       changed from        1.00000 to        0.63000
+     parj(26)       changed from        0.40000 to        0.12000
+     parj(41)       changed from        0.30000 to        0.50000
+     parj(42)       changed from        0.58000 to        0.60000
+     parj(46)       changed from        1.00000 to        1.00000
+     parj(47)       changed from        1.00000 to        0.67000
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+ in hyinit AW=    208.00000000000000       energy=    5020.0000000000000       ptmin=    10.000000000000000     
+ bminh=    0.0000000000000000       bmaxh=    2.9352452333714734     
+ ifb=            1  bfix=    0.0000000000000000     
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+
+     Advisory warning type 3 given after        0 PYEXEC calls:
+     (PYROBO:) boost vector too large
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:32.529 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:32 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:34.233 CEST
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:34.913 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:35 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:36.081 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:36 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:36.451 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:36.568 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:36.594 CEST
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:36.614 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:36 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:37 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:37.616 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:37.652 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:37.677 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:37.748 CEST
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:37.861 CEST
+BEGIN.........
+DO BACKGROUND!
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:38 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:38.148 CEST
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 23-Jul-2016 10:02:38.417 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:39.004 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:39.028 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:39.037 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:39.386 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:39.670 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:40.430 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:40.473 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:40 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:41.399 CEST
+%MSG-e GetByLabelWithoutRegistration:  Hydjet2Analyzer_new_my_pt_mult:ana  23-Jul-2016 10:02:41 CEST Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:42.176 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:42.219 CEST
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:42.861 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:42.926 CEST
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:43.204 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:43.775 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:43.837 CEST
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:43.973 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:44.061 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:44.431 CEST
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:44.476 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:44.721 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:44.841 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:45.243 CEST
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 at 23-Jul-2016 10:02:45.453 CEST
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:02:45.694 CEST
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:45.761 CEST
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:45.881 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:45.966 CEST
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:46.478 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:46.900 CEST
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 at 23-Jul-2016 10:02:46.970 CEST
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:02:46.980 CEST
+BEGIN.........
+DO BACKGROUND!
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:47.258 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:47.278 CEST
+BEGIN.........
+DO BACKGROUND!
+BEGIN.........
+DO BACKGROUND!
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:47.979 CEST
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:02:48.061 CEST
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:02:48.864 CEST
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:02:48.908 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:02:50.012 CEST
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:50.173 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:50.216 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:50.343 CEST
+BEGIN.........
+DO BACKGROUND!
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1            14 I  1.864D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            1             7 I  1.527D+00 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            0             7 I  3.368D-01 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:50.880 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 at 23-Jul-2016 10:02:51.160 CEST
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:51.559 CEST
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:51.586 CEST
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 at 23-Jul-2016 10:02:51.593 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:02:52.311 CEST
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:02:52.357 CEST
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:52.906 CEST
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:02:53.321 CEST
+BEGIN.........
+DO BACKGROUND!
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:53.882 CEST
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:02:53.991 CEST
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:02:54.049 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:54.093 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:02:54.468 CEST
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:02:54.531 CEST
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1             4 I  3.434D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            1             3 I  1.144D+00 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            0             1 I  2.290D+00 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:02:55.563 CEST
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:02:56.121 CEST
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 at 23-Jul-2016 10:02:56.408 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:02:57.135 CEST
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:02:58.013 CEST
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:02:58.786 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:02:58.838 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 13th record. Run 1, Event 13, LumiSection 1 at 23-Jul-2016 10:02:59.442 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:03:00.607 CEST
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:03:01.103 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:03:01.878 CEST
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:03:01.881 CEST
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:03:02.408 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:03:02.858 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:03:03.317 CEST
+Begin processing the 14th record. Run 1, Event 14, LumiSection 1 at 23-Jul-2016 10:03:03.332 CEST
+Begin processing the 15th record. Run 1, Event 15, LumiSection 1 at 23-Jul-2016 10:03:03.777 CEST
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:03:03.834 CEST
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:03:04.585 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 at 23-Jul-2016 10:03:04.703 CEST
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:03:05.140 CEST
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1             5 I  3.203D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            1             2 I  3.203D+00 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            0             3 I  1.232D-04 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 at 23-Jul-2016 10:03:06.146 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 at 23-Jul-2016 10:03:06.670 CEST
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1             1 I  1.202D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            0             0 I  0.000D+00 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            1             1 I  1.202D+00 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:03:07.391 CEST
+Begin processing the 16th record. Run 1, Event 16, LumiSection 1 at 23-Jul-2016 10:03:07.403 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:03:07.915 CEST
+BEGIN.........
+DO BACKGROUND!
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 at 23-Jul-2016 10:03:08.941 CEST
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1            11 I  2.066D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            0             3 I  3.622D-01 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            1             8 I  1.703D+00 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+Begin processing the 11th record. Run 1, Event 11, LumiSection 1 at 23-Jul-2016 10:03:09.625 CEST
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1             6 I  1.192D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            1             3 I  8.657D-01 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            0             3 I  3.263D-01 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+Begin processing the 12th record. Run 1, Event 12, LumiSection 1 at 23-Jul-2016 10:03:10.214 CEST
+BEGIN.........
+DO BACKGROUND!
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1             2 I  2.711D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             0 I  0.000D+00 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            0             1 I  1.683D+00 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            1             1 I  1.028D+00 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+BEGIN.........
+DO BACKGROUND!
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Configuration        -w Hydjet2Analyzer_                       1        1
+    2 GetByLabelWithoutReg -e Hydjet2Analyzer_                       1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Configuration        pre-events                        
+    2 GetByLabelWithoutRegistration 1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+Error                   1                   1
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I            1            13 I  2.250D+00 I
+ I  11 f + f' -> f + f' (QCD)       I            0             1 I  6.657D-02 I
+ I  12 f + fbar -> f' + fbar'       I            0             0 I  0.000D+00 I
+ I  13 f + fbar -> g + g            I            0             0 I  0.000D+00 I
+ I  28 f + g -> f + g               I            1             4 I  6.592D-01 I
+ I  53 g + g -> f + fbar            I            0             0 I  0.000D+00 I
+ I  68 g + g -> g + g               I            0             8 I  1.524D+00 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =        0 *************
+ ********* Total number of errors, including junctions =        0 *************
+ ********* Total number of warnings =                           0 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00000 *********
+
+hadd Target file: output_100_2_0-100_2.0.root
+hadd Source file 1: output_12_2_0-100_2.0_0.root
+hadd Source file 2: output_12_2_0-100_2.0_1.root
+hadd Source file 3: output_12_2_0-100_2.0_2.root
+hadd Source file 4: output_12_2_0-100_2.0_3.root
+hadd Source file 5: output_12_2_0-100_2.0_4.root
+hadd Source file 6: output_12_2_0-100_2.0_5.root
+hadd Source file 7: output_12_2_0-100_2.0_6.root
+hadd Source file 8: output_16_2_0-100_2.0_7.root
+hadd Target path: output_100_2_0-100_2.0.root:/

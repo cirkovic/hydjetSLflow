@@ -1,0 +1,1866 @@
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_AT_Vienna
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212123 and copy (dummy) file crab3checkwrite_20160703_212123.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212123.tmp 'srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/crab3checkwrite_20160703_212123.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212123 and copied file crab3checkwrite_20160703_212123.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/crab3checkwrite_20160703_212123.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/crab3checkwrite_20160703_212123.tmp'
+Please wait...
+
+Successfully deleted file srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/crab3checkwrite_20160703_212123.tmp
+
+Attempting to delete directory srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/'
+Please wait...
+
+Successfully deleted directory srm://hephyse.oeaw.ac.at:8446/srm/managerv2?SFN=/dpm/oeaw.ac.at/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212123/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_AT_Vienna
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_BE_IIHE
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212135 and copy (dummy) file crab3checkwrite_20160703_212135.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212135.tmp 'srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/crab3checkwrite_20160703_212135.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212135 and copied file crab3checkwrite_20160703_212135.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/crab3checkwrite_20160703_212135.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/crab3checkwrite_20160703_212135.tmp'
+Please wait...
+
+Successfully deleted file srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/crab3checkwrite_20160703_212135.tmp
+
+Attempting to delete directory srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/'
+Please wait...
+
+Successfully deleted directory srm://maite.iihe.ac.be:8443/srm/managerv2?SFN=/pnfs/iihe/cms/store/user/cirkovic/crab3checkwrite_20160703_212135/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_BE_IIHE
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_BE_UCL
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212145 and copy (dummy) file crab3checkwrite_20160703_212145.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212145.tmp 'srm://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2?SFN=/storage/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212145/crab3checkwrite_20160703_212145.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212145.tmp => srm://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2?SFN=/storage/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212145/crab3checkwrite_20160703_212145.tmp
+    event: [1467573708470] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573708471] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212145.tmp => srm://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2?SFN=/storage/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212145/crab3checkwrite_20160703_212145.tmp
+    event: [1467573708471] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573709358] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2: srm://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2?SFN=/storage/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212145: <none>
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2: srm://ingrid-se02.cism.ucl.ac.be:8444/srm/managerv2?SFN=/storage/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212145: <none>
+    
+    
+
+Checkwrite Result:
+Unable to check write permission in /store/user/cirkovic on site T2_BE_UCL
+Please try again later or contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_BR_SPRACE
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212157 and copy (dummy) file crab3checkwrite_20160703_212157.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212157.tmp 'srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/crab3checkwrite_20160703_212157.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212157 and copied file crab3checkwrite_20160703_212157.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/crab3checkwrite_20160703_212157.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/crab3checkwrite_20160703_212157.tmp'
+Please wait...
+
+Successfully deleted file srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/crab3checkwrite_20160703_212157.tmp
+
+Attempting to delete directory srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/'
+Please wait...
+
+Successfully deleted directory srm://osg-se.sprace.org.br:8443/srm/managerv2?SFN=/pnfs/sprace.org.br/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212157/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_BR_SPRACE
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_BR_UERJ
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212221 and copy (dummy) file crab3checkwrite_20160703_212221.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212221.tmp 'srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/crab3checkwrite_20160703_212221.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212221 and copied file crab3checkwrite_20160703_212221.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/crab3checkwrite_20160703_212221.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/crab3checkwrite_20160703_212221.tmp'
+Please wait...
+
+Successfully deleted file srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/crab3checkwrite_20160703_212221.tmp
+
+Attempting to delete directory srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/'
+Please wait...
+
+Successfully deleted directory srm://se.hepgrid.uerj.br:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_212221/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_BR_UERJ
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CH_CERN
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212243 and copy (dummy) file crab3checkwrite_20160703_212243.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212243.tmp 'srm://srm-eoscms.cern.ch:8443/srm/v2/server?SFN=/eos/cms/store/user/cirkovic/crab3checkwrite_20160703_212243/crab3checkwrite_20160703_212243.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212243.tmp => srm://srm-eoscms.cern.ch:8443/srm/v2/server?SFN=/eos/cms/store/user/cirkovic/crab3checkwrite_20160703_212243/crab3checkwrite_20160703_212243.tmp
+    event: [1467573764139] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573764139] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212243.tmp => srm://srm-eoscms.cern.ch:8443/srm/v2/server?SFN=/eos/cms/store/user/cirkovic/crab3checkwrite_20160703_212243/crab3checkwrite_20160703_212243.tmp
+    event: [1467573764139] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573764196] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm-eoscms.cern.ch:8443/srm/v2/server: srm://srm-eoscms.cern.ch:8443/srm/v2/server?SFN=/eos/cms/store/user/cirkovic/crab3checkwrite_20160703_212243: Error:/bin/mkdir: cannot create directory `/eos/cms/store/user/cirkovic': Operation not permitted
+    Ref-u cirkovic  /bin/mkdir /eos/cms/store/user/cirkovic
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm-eoscms.cern.ch:8443/srm/v2/server: srm://srm-eoscms.cern.ch:8443/srm/v2/server?SFN=/eos/cms/store/user/cirkovic/crab3checkwrite_20160703_212243: Error:/bin/mkdir: cannot create directory `/eos/cms/store/user/cirkovic': Operation not permitted
+    Ref-u cirkovic  /bin/mkdir /eos/cms/store/user/cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_CH_CERN
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CH_CERN_AI
+The cachefile /tmp/cirkovic/.wmcore_cache_ZPu4vq/cmsweb.cern.ch/-7562034641212576077_GET_lfn2pfn does not exist and the service at https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn is unavailable - it returned 400 because Bad Request
+ with result: no nodes found for ' T2_CH_CERN_AI '.\n
+
+Error: Failed to contact PhEDEx or wrong PhEDEx node name is used
+Result: no nodes found for ' T2_CH_CERN_AI '.\n
+Status :400
+URL :https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn
+The server answered with an error.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CH_CERN_HLT
+The cachefile /tmp/cirkovic/.wmcore_cache_e9nRHc/cmsweb.cern.ch/-8904472987416357446_GET_lfn2pfn does not exist and the service at https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn is unavailable - it returned 400 because Bad Request
+ with result: no nodes found for ' T2_CH_CERN_HLT '.\n
+
+Error: Failed to contact PhEDEx or wrong PhEDEx node name is used
+Result: no nodes found for ' T2_CH_CERN_HLT '.\n
+Status :400
+URL :https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn
+The server answered with an error.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CH_CERN_Wigner
+The cachefile /tmp/cirkovic/.wmcore_cache_D0Aq12/cmsweb.cern.ch/-4160367118750343289_GET_lfn2pfn does not exist and the service at https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn is unavailable - it returned 400 because Bad Request
+ with result: no nodes found for ' T2_CH_CERN_Wigner '.\n
+
+Error: Failed to contact PhEDEx or wrong PhEDEx node name is used
+Result: no nodes found for ' T2_CH_CERN_Wigner '.\n
+Status :400
+URL :https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn
+The server answered with an error.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CH_CSCS
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212314 and copy (dummy) file crab3checkwrite_20160703_212314.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212314.tmp 'srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/crab3checkwrite_20160703_212314.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212314 and copied file crab3checkwrite_20160703_212314.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/crab3checkwrite_20160703_212314.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/crab3checkwrite_20160703_212314.tmp'
+Please wait...
+
+Successfully deleted file srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/crab3checkwrite_20160703_212314.tmp
+
+Attempting to delete directory srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/'
+Please wait...
+
+Successfully deleted directory srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212314/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_CH_CSCS
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_CN_Beijing
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212325 and copy (dummy) file crab3checkwrite_20160703_212325.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212325.tmp 'srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/crab3checkwrite_20160703_212325.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212325 and copied file crab3checkwrite_20160703_212325.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/crab3checkwrite_20160703_212325.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/crab3checkwrite_20160703_212325.tmp'
+Please wait...
+
+Successfully deleted file srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/crab3checkwrite_20160703_212325.tmp
+
+Attempting to delete directory srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/'
+Please wait...
+
+Successfully deleted directory srm://srm.ihep.ac.cn:8443/srm/managerv2?SFN=/pnfs/ihep.ac.cn/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212325/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_CN_Beijing
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_DE_DESY
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212349 and copy (dummy) file crab3checkwrite_20160703_212349.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212349.tmp 'srm://dcache-se-cms.desy.de:8443/srm/managerv2?SFN=/pnfs/desy.de/cms/tier2/store/user/cirkovic/crab3checkwrite_20160703_212349/crab3checkwrite_20160703_212349.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212349.tmp => srm://dcache-se-cms.desy.de:8443/srm/managerv2?SFN=/pnfs/desy.de/cms/tier2/store/user/cirkovic/crab3checkwrite_20160703_212349/crab3checkwrite_20160703_212349.tmp
+    event: [1467573830481] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573830481] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212349.tmp => srm://dcache-se-cms.desy.de:8443/srm/managerv2?SFN=/pnfs/desy.de/cms/tier2/store/user/cirkovic/crab3checkwrite_20160703_212349/crab3checkwrite_20160703_212349.tmp
+    event: [1467573830481] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573830505] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://dcache-se-cms.desy.de:8443/srm/managerv2: srm://dcache-se-cms.desy.de:8443/srm/managerv2?SFN=/pnfs/desy.de/cms/tier2/store/user/cirkovic/crab3checkwrite_20160703_212349: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://dcache-se-cms.desy.de:8443/srm/managerv2: srm://dcache-se-cms.desy.de:8443/srm/managerv2?SFN=/pnfs/desy.de/cms/tier2/store/user/cirkovic/crab3checkwrite_20160703_212349: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_DE_DESY
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_DE_RWTH
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212358 and copy (dummy) file crab3checkwrite_20160703_212358.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212358.tmp 'srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/crab3checkwrite_20160703_212358.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212358 and copied file crab3checkwrite_20160703_212358.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/crab3checkwrite_20160703_212358.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/crab3checkwrite_20160703_212358.tmp'
+Please wait...
+
+Successfully deleted file srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/crab3checkwrite_20160703_212358.tmp
+
+Attempting to delete directory srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/'
+Please wait...
+
+Successfully deleted directory srm://grid-srm.physik.rwth-aachen.de:8443/srm/managerv2?SFN=/pnfs/physik.rwth-aachen.de/cms/store/user/cirkovic/crab3checkwrite_20160703_212358/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_DE_RWTH
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_EE_Estonia
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212409 and copy (dummy) file crab3checkwrite_20160703_212409.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212409.tmp 'srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/crab3checkwrite_20160703_212409.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212409 and copied file crab3checkwrite_20160703_212409.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/crab3checkwrite_20160703_212409.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/crab3checkwrite_20160703_212409.tmp'
+Please wait...
+
+Successfully deleted file srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/crab3checkwrite_20160703_212409.tmp
+
+Attempting to delete directory srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/'
+Please wait...
+
+Successfully deleted directory srm://ganymede.hep.kbfi.ee:8888/srm/v2/server?SFN=/hdfs/cms/store/user/cirkovic/crab3checkwrite_20160703_212409/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_EE_Estonia
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_ES_CIEMAT
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212432 and copy (dummy) file crab3checkwrite_20160703_212432.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212432.tmp 'srm://srm.ciemat.es:8443/srm/managerv2?SFN=/pnfs/ciemat.es/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212432/crab3checkwrite_20160703_212432.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212432.tmp => srm://srm.ciemat.es:8443/srm/managerv2?SFN=/pnfs/ciemat.es/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212432/crab3checkwrite_20160703_212432.tmp
+    event: [1467573873679] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573873679] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212432.tmp => srm://srm.ciemat.es:8443/srm/managerv2?SFN=/pnfs/ciemat.es/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212432/crab3checkwrite_20160703_212432.tmp
+    event: [1467573873679] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573873701] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://srm.ciemat.es:8443/srm/managerv2: srm://srm.ciemat.es:8443/srm/managerv2?SFN=/pnfs/ciemat.es/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212432: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://srm.ciemat.es:8443/srm/managerv2: srm://srm.ciemat.es:8443/srm/managerv2?SFN=/pnfs/ciemat.es/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212432: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_ES_CIEMAT
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_ES_IFCA
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212511 and copy (dummy) file crab3checkwrite_20160703_212511.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212511.tmp 'srm://srm01.ifca.es:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212511.tmp => srm://srm01.ifca.es:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp
+    event: [1467573912201] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573912202] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212511.tmp => srm://srm01.ifca.es:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp
+    event: [1467573912202] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573912251] BOTH   SRM	PREPARE:ENTER	
+    event: [1467573913724] DEST   GFAL2::PLUGINS::SRM	SRM:PUT	Got TURL srm://srm01.ifca.es:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp => gsiftp://gridftp02.ifca.es:2811//gpfs/csic_projects/cms/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp
+    event: [1467573913724] BOTH   SRM	PREPARE:EXIT	
+    event: [1467573913724] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573913724] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212511.tmp => gsiftp://gridftp02.ifca.es:2811//gpfs/csic_projects/cms/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp
+    event: [1467573913724] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573913724] BOTH   GFAL2:CORE:COPY:LOCAL	TRANSFER:ENTER	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212511.tmp => gsiftp://gridftp02.ifca.es:2811//gpfs/csic_projects/cms/cirkovic/crab3checkwrite_20160703_212511/crab3checkwrite_20160703_212511.tmp
+    
+  Stderr:
+    WARNING Transfer failed with: Could not open destination: globus_ftp_control: gss_init_sec_context failed GSS Major Status: Unexpected Gatekeeper or Service Name globus_gsi_gssapi: Authorization denied: The name of the remote entity (/DC=es/DC=irisgrid/O=ifca/CN=host/pool01.ifca.es), and the expected name for the remote entity (/CN=gridftp02.ifca.es) do not match 
+    gfal-copy error: 70 (Communication error on send) - Could not open destination: globus_ftp_control: gss_init_sec_context failed GSS Major Status: Unexpected Gatekeeper or Service Name globus_gsi_gssapi: Authorization denied: The name of the remote entity (/DC=es/DC=irisgrid/O=ifca/CN=host/pool01.ifca.es), and the expected name for the remote entity (/CN=gridftp02.ifca.es) do not match 
+    
+
+Checkwrite Result:
+Unable to check write permission in /store/user/cirkovic on site T2_ES_IFCA
+Please try again later or contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_FI_HIP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212523 and copy (dummy) file crab3checkwrite_20160703_212523.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212523.tmp 'srm://madhatter.csc.fi:8443/srm/managerv2?SFN=/pnfs/csc.fi/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212523/crab3checkwrite_20160703_212523.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212523.tmp => srm://madhatter.csc.fi:8443/srm/managerv2?SFN=/pnfs/csc.fi/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212523/crab3checkwrite_20160703_212523.tmp
+    event: [1467573925906] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573925906] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212523.tmp => srm://madhatter.csc.fi:8443/srm/managerv2?SFN=/pnfs/csc.fi/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212523/crab3checkwrite_20160703_212523.tmp
+    event: [1467573925906] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573926011] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://madhatter.csc.fi:8443/srm/managerv2: srm://madhatter.csc.fi:8443/srm/managerv2?SFN=/pnfs/csc.fi/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212523: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://madhatter.csc.fi:8443/srm/managerv2: srm://madhatter.csc.fi:8443/srm/managerv2?SFN=/pnfs/csc.fi/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212523: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_FI_HIP
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_FR_CCIN2P3
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212534 and copy (dummy) file crab3checkwrite_20160703_212534.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212534.tmp 'srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/crab3checkwrite_20160703_212534.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212534 and copied file crab3checkwrite_20160703_212534.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/crab3checkwrite_20160703_212534.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/crab3checkwrite_20160703_212534.tmp'
+Please wait...
+
+Successfully deleted file srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/crab3checkwrite_20160703_212534.tmp
+
+Attempting to delete directory srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/'
+Please wait...
+
+Successfully deleted directory srm://ccsrmt2.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/t2data/store/user/cirkovic/crab3checkwrite_20160703_212534/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_FR_CCIN2P3
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_FR_GRIF_IRFU
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212542 and copy (dummy) file crab3checkwrite_20160703_212542.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212542.tmp 'srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/crab3checkwrite_20160703_212542.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212542 and copied file crab3checkwrite_20160703_212542.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/crab3checkwrite_20160703_212542.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/crab3checkwrite_20160703_212542.tmp'
+Please wait...
+
+Successfully deleted file srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/crab3checkwrite_20160703_212542.tmp
+
+Attempting to delete directory srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/'
+Please wait...
+
+Successfully deleted directory srm://node12.datagrid.cea.fr:8446/srm/managerv2?SFN=/dpm/datagrid.cea.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212542/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_FR_GRIF_IRFU
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_FR_GRIF_LLR
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212554 and copy (dummy) file crab3checkwrite_20160703_212554.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212554.tmp 'srm://polgrid4.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212554/crab3checkwrite_20160703_212554.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212554.tmp => srm://polgrid4.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212554/crab3checkwrite_20160703_212554.tmp
+    event: [1467573955347] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467573955347] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212554.tmp => srm://polgrid4.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212554/crab3checkwrite_20160703_212554.tmp
+    event: [1467573955347] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467573955357] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://polgrid4.in2p3.fr:8446/srm/managerv2: srm://polgrid4.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212554: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://polgrid4.in2p3.fr:8446/srm/managerv2: srm://polgrid4.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/trivcat/store/user/cirkovic/crab3checkwrite_20160703_212554: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_FR_GRIF_LLR
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_FR_IPHC
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212602 and copy (dummy) file crab3checkwrite_20160703_212602.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212602.tmp 'srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/crab3checkwrite_20160703_212602.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212602 and copied file crab3checkwrite_20160703_212602.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/crab3checkwrite_20160703_212602.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/crab3checkwrite_20160703_212602.tmp'
+Please wait...
+
+Successfully deleted file srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/crab3checkwrite_20160703_212602.tmp
+
+Attempting to delete directory srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/'
+Please wait...
+
+Successfully deleted directory srm://sbgse1.in2p3.fr:8446/srm/managerv2?SFN=/dpm/in2p3.fr/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212602/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_FR_IPHC
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_GR_Ioannina
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212618 and copy (dummy) file crab3checkwrite_20160703_212618.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212618.tmp 'srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/crab3checkwrite_20160703_212618.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212618 and copied file crab3checkwrite_20160703_212618.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/crab3checkwrite_20160703_212618.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/crab3checkwrite_20160703_212618.tmp'
+Please wait...
+
+Successfully deleted file srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/crab3checkwrite_20160703_212618.tmp
+
+Attempting to delete directory srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/'
+Please wait...
+
+Successfully deleted directory srm://grid02.physics.uoi.gr:8446/srm/managerv2?SFN=/dpm/physics.uoi.gr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212618/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_GR_Ioannina
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_HU_Budapest
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212635 and copy (dummy) file crab3checkwrite_20160703_212635.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212635.tmp 'srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/crab3checkwrite_20160703_212635.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212635 and copied file crab3checkwrite_20160703_212635.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/crab3checkwrite_20160703_212635.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/crab3checkwrite_20160703_212635.tmp'
+Please wait...
+
+Successfully deleted file srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/crab3checkwrite_20160703_212635.tmp
+
+Attempting to delete directory srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/'
+Please wait...
+
+Successfully deleted directory srm://grid143.kfki.hu:8446/srm/managerv2?SFN=/dpm/kfki.hu/home/cms/phedex/store/user/cirkovic/crab3checkwrite_20160703_212635/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_HU_Budapest
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_IN_TIFR
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212647 and copy (dummy) file crab3checkwrite_20160703_212647.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212647.tmp 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/crab3checkwrite_20160703_212647.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212647 and copied file crab3checkwrite_20160703_212647.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/crab3checkwrite_20160703_212647.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/crab3checkwrite_20160703_212647.tmp'
+Please wait...
+
+Successfully deleted file srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/crab3checkwrite_20160703_212647.tmp
+
+Attempting to delete directory srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/'
+Please wait...
+
+Successfully deleted directory srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212647/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_IN_TIFR
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_IT_Bari
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212708 and copy (dummy) file crab3checkwrite_20160703_212708.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212708.tmp 'srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/crab3checkwrite_20160703_212708.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212708 and copied file crab3checkwrite_20160703_212708.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/crab3checkwrite_20160703_212708.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/crab3checkwrite_20160703_212708.tmp'
+Please wait...
+
+Successfully deleted file srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/crab3checkwrite_20160703_212708.tmp
+
+Attempting to delete directory srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/'
+Please wait...
+
+Successfully deleted directory srm://storm-se-01.ba.infn.it:8444/srm/managerv2?SFN=//cms/store/user/cirkovic/crab3checkwrite_20160703_212708/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_IT_Bari
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_IT_Legnaro
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212721 and copy (dummy) file crab3checkwrite_20160703_212721.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212721.tmp 'srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/crab3checkwrite_20160703_212721.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212721 and copied file crab3checkwrite_20160703_212721.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/crab3checkwrite_20160703_212721.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/crab3checkwrite_20160703_212721.tmp'
+Please wait...
+
+Successfully deleted file srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/crab3checkwrite_20160703_212721.tmp
+
+Attempting to delete directory srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/'
+Please wait...
+
+Successfully deleted directory srm://t2-srm-02.lnl.infn.it:8443/srm/managerv2?SFN=/pnfs/lnl.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212721/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_IT_Legnaro
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_IT_Pisa
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212732 and copy (dummy) file crab3checkwrite_20160703_212732.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212732.tmp 'srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/crab3checkwrite_20160703_212732.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212732 and copied file crab3checkwrite_20160703_212732.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/crab3checkwrite_20160703_212732.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/crab3checkwrite_20160703_212732.tmp'
+Please wait...
+
+Successfully deleted file srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/crab3checkwrite_20160703_212732.tmp
+
+Attempting to delete directory srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/'
+Please wait...
+
+Successfully deleted directory srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/cirkovic/crab3checkwrite_20160703_212732/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_IT_Pisa
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_IT_Rome
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212744 and copy (dummy) file crab3checkwrite_20160703_212744.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212744.tmp 'srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/crab3checkwrite_20160703_212744.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212744 and copied file crab3checkwrite_20160703_212744.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/crab3checkwrite_20160703_212744.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/crab3checkwrite_20160703_212744.tmp'
+Please wait...
+
+Successfully deleted file srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/crab3checkwrite_20160703_212744.tmp
+
+Attempting to delete directory srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/'
+Please wait...
+
+Successfully deleted directory srm://cmsrm-se01.roma1.infn.it:8443/srm/managerv2?SFN=/pnfs/roma1.infn.it/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212744/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_IT_Rome
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_KR_KNU
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212757 and copy (dummy) file crab3checkwrite_20160703_212757.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212757.tmp 'srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212757/crab3checkwrite_20160703_212757.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212757.tmp => srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212757/crab3checkwrite_20160703_212757.tmp
+    event: [1467574080184] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574080184] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212757.tmp => srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212757/crab3checkwrite_20160703_212757.tmp
+    event: [1467574080184] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574080457] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://cluster142.knu.ac.kr:8443/srm/managerv2: srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212757: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://cluster142.knu.ac.kr:8443/srm/managerv2: srm://cluster142.knu.ac.kr:8443/srm/managerv2?SFN=/pnfs/knu.ac.kr/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212757: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_KR_KNU
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_MY_SIFIR
+The cachefile /tmp/cirkovic/.wmcore_cache_BC3JT4/cmsweb.cern.ch/-4158341241815933774_GET_lfn2pfn does not exist and the service at https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn is unavailable - it returned 400 because Bad Request
+ with result: no nodes found for ' T2_MY_SIFIR '.\n
+
+Error: Failed to contact PhEDEx or wrong PhEDEx node name is used
+Result: no nodes found for ' T2_MY_SIFIR '.\n
+Status :400
+URL :https://cmsweb.cern.ch/phedex/datasvc/json/prod/lfn2pfn
+The server answered with an error.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_MY_UPM_BIRUNI
+Error: Failed to get PFN from the site. Please check the site status
+
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_PK_NCP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212822 and copy (dummy) file crab3checkwrite_20160703_212822.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212822.tmp 'srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/crab3checkwrite_20160703_212822.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212822 and copied file crab3checkwrite_20160703_212822.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/crab3checkwrite_20160703_212822.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/crab3checkwrite_20160703_212822.tmp'
+Please wait...
+
+Successfully deleted file srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/crab3checkwrite_20160703_212822.tmp
+
+Attempting to delete directory srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/'
+Please wait...
+
+Successfully deleted directory srm://pcncp22.ncp.edu.pk:8446/srm/managerv2?SFN=/dpm/ncp.edu.pk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212822/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_PK_NCP
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_PL_Swierk
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212851 and copy (dummy) file crab3checkwrite_20160703_212851.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212851.tmp 'srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/crab3checkwrite_20160703_212851.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212851 and copied file crab3checkwrite_20160703_212851.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/crab3checkwrite_20160703_212851.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/crab3checkwrite_20160703_212851.tmp'
+Please wait...
+
+Successfully deleted file srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/crab3checkwrite_20160703_212851.tmp
+
+Attempting to delete directory srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/'
+Please wait...
+
+Successfully deleted directory srm://se.cis.gov.pl:8446/srm/managerv2?SFN=/dpm/cis.gov.pl/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212851/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_PL_Swierk
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_PL_Warsaw
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212906 and copy (dummy) file crab3checkwrite_20160703_212906.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212906.tmp 'srm://se.grid.icm.edu.pl:8446/srm/managerv2?SFN=/dpm/grid.icm.edu.pl/home/cms/phedex/store/store/user/cirkovic/crab3checkwrite_20160703_212906/crab3checkwrite_20160703_212906.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212906.tmp => srm://se.grid.icm.edu.pl:8446/srm/managerv2?SFN=/dpm/grid.icm.edu.pl/home/cms/phedex/store/store/user/cirkovic/crab3checkwrite_20160703_212906/crab3checkwrite_20160703_212906.tmp
+    event: [1467574147247] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574147248] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212906.tmp => srm://se.grid.icm.edu.pl:8446/srm/managerv2?SFN=/dpm/grid.icm.edu.pl/home/cms/phedex/store/store/user/cirkovic/crab3checkwrite_20160703_212906/crab3checkwrite_20160703_212906.tmp
+    event: [1467574147248] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574147282] BOTH   SRM	PREPARE:ENTER	
+    event: [1467574148462] DEST   GFAL2::PLUGINS::SRM	SRM:PUT	Got TURL srm://se.grid.icm.edu.pl:8446/srm/managerv2?SFN=/dpm/grid.icm.edu.pl/home/cms/phedex/store/store/user/cirkovic/crab3checkwrite_20160703_212906/crab3checkwrite_20160703_212906.tmp => gsiftp://zazu.grid.icm.edu.pl/zazu.grid.icm.edu.pl:/mnt/s4/cms/2016-07-03/crab3checkwrite_20160703_212906.tmp.1150381.0
+    event: [1467574148462] BOTH   SRM	PREPARE:EXIT	
+    event: [1467574148462] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574148462] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212906.tmp => gsiftp://zazu.grid.icm.edu.pl/zazu.grid.icm.edu.pl:/mnt/s4/cms/2016-07-03/crab3checkwrite_20160703_212906.tmp.1150381.0
+    event: [1467574148462] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574148462] BOTH   GFAL2:CORE:COPY:LOCAL	TRANSFER:ENTER	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212906.tmp => gsiftp://zazu.grid.icm.edu.pl/zazu.grid.icm.edu.pl:/mnt/s4/cms/2016-07-03/crab3checkwrite_20160703_212906.tmp.1150381.0
+    
+  Stderr:
+    WARNING Transfer failed with: Could not open destination: globus_ftp_client: the server responded with an error 530 530-globus_xio: Server side credential failure  530-globus_gsi_gssapi: Error with GSI credential  530-globus_gsi_gssapi: Error with gss credential handle  530-globus_credential: Error with credential: The host credential: /etc/grid-security/dpmmgr/dpmcert.pem  530-     with subject: /C=PL/O=GRID/O=ICM/CN=zazu.grid.icm.edu.pl  530-     has expired 72649 minutes ago.  530-  530 End.   
+    gfal-copy error: 13 (Permission denied) - Could not open destination: globus_ftp_client: the server responded with an error 530 530-globus_xio: Server side credential failure  530-globus_gsi_gssapi: Error with GSI credential  530-globus_gsi_gssapi: Error with gss credential handle  530-globus_credential: Error with credential: The host credential: /etc/grid-security/dpmmgr/dpmcert.pem  530-     with subject: /C=PL/O=GRID/O=ICM/CN=zazu.grid.icm.edu.pl  530-     has expired 72649 minutes ago.  530-  530 End.   
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_PL_Warsaw
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_PT_NCG_Lisbon
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212916 and copy (dummy) file crab3checkwrite_20160703_212916.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212916.tmp 'srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/crab3checkwrite_20160703_212916.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212916 and copied file crab3checkwrite_20160703_212916.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/crab3checkwrite_20160703_212916.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/crab3checkwrite_20160703_212916.tmp'
+Please wait...
+
+Successfully deleted file srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/crab3checkwrite_20160703_212916.tmp
+
+Attempting to delete directory srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/'
+Please wait...
+
+Successfully deleted directory srm://srm01.ncg.ingrid.pt:8444/srm/managerv2?SFN=/cmst3/store/user/cirkovic/crab3checkwrite_20160703_212916/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_PT_NCG_Lisbon
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_IHEP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212929 and copy (dummy) file crab3checkwrite_20160703_212929.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212929.tmp 'srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/crab3checkwrite_20160703_212929.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_212929 and copied file crab3checkwrite_20160703_212929.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/crab3checkwrite_20160703_212929.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/crab3checkwrite_20160703_212929.tmp'
+Please wait...
+
+Successfully deleted file srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/crab3checkwrite_20160703_212929.tmp
+
+Attempting to delete directory srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/'
+Please wait...
+
+Successfully deleted directory srm://dp0015.m45.ihep.su:8443/srm/managerv2?SFN=/pnfs/m45.ihep.su/data/cms/store/user/cirkovic/crab3checkwrite_20160703_212929/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_RU_IHEP
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_INR
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_212941 and copy (dummy) file crab3checkwrite_20160703_212941.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212941.tmp 'srm://grse001.inr.troitsk.ru:8446/srm/managerv2?SFN=/dpm/inr.troitsk.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212941/crab3checkwrite_20160703_212941.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212941.tmp => srm://grse001.inr.troitsk.ru:8446/srm/managerv2?SFN=/dpm/inr.troitsk.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212941/crab3checkwrite_20160703_212941.tmp
+    event: [1467574302423] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574302425] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_212941.tmp => srm://grse001.inr.troitsk.ru:8446/srm/managerv2?SFN=/dpm/inr.troitsk.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_212941/crab3checkwrite_20160703_212941.tmp
+    event: [1467574302425] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    
+  Stderr:
+    Command timed out after 180 seconds!
+    
+
+Checkwrite Result:
+Unable to check write permission in /store/user/cirkovic on site T2_RU_INR
+Please try again later or contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_ITEP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213251 and copy (dummy) file crab3checkwrite_20160703_213251.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213251.tmp 'srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/crab3checkwrite_20160703_213251.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213251 and copied file crab3checkwrite_20160703_213251.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/crab3checkwrite_20160703_213251.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/crab3checkwrite_20160703_213251.tmp'
+Please wait...
+
+Successfully deleted file srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/crab3checkwrite_20160703_213251.tmp
+
+Attempting to delete directory srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/'
+Please wait...
+
+Successfully deleted directory srm://se3.itep.ru:8443/srm/managerv2?SFN=/pnfs/itep.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213251/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_RU_ITEP
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_JINR
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213307 and copy (dummy) file crab3checkwrite_20160703_213307.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213307.tmp 'srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/crab3checkwrite_20160703_213307.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213307 and copied file crab3checkwrite_20160703_213307.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/crab3checkwrite_20160703_213307.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/crab3checkwrite_20160703_213307.tmp'
+Please wait...
+
+Successfully deleted file srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/crab3checkwrite_20160703_213307.tmp
+
+Attempting to delete directory srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/'
+Please wait...
+
+Successfully deleted directory srm://lcgsedc01.jinr.ru:8443/srm/managerv2?SFN=/pnfs/jinr.ru/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213307/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_RU_JINR
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_PNPI
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213328 and copy (dummy) file crab3checkwrite_20160703_213328.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213328.tmp 'srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/crab3checkwrite_20160703_213328.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213328 and copied file crab3checkwrite_20160703_213328.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/crab3checkwrite_20160703_213328.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/crab3checkwrite_20160703_213328.tmp'
+Please wait...
+
+Successfully deleted file srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/crab3checkwrite_20160703_213328.tmp
+
+Attempting to delete directory srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/'
+Please wait...
+
+Successfully deleted directory srm://cluster.pnpi.nw.ru:8446/srm/managerv2?SFN=/dpm/pnpi.nw.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213328/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_RU_PNPI
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_RU_SINP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213343 and copy (dummy) file crab3checkwrite_20160703_213343.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213343.tmp 'srm://lcg58.sinp.msu.ru:8446/srm/managerv2?SFN=/dpm/sinp.msu.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213343/crab3checkwrite_20160703_213343.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213343.tmp => srm://lcg58.sinp.msu.ru:8446/srm/managerv2?SFN=/dpm/sinp.msu.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213343/crab3checkwrite_20160703_213343.tmp
+    event: [1467574424565] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574424565] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213343.tmp => srm://lcg58.sinp.msu.ru:8446/srm/managerv2?SFN=/dpm/sinp.msu.ru/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213343/crab3checkwrite_20160703_213343.tmp
+    event: [1467574424565] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574424831] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION SRM_PUT_TURL error on the turl request : [SE][StatusOfPutRequest][SRM_FAILURE] error accessing lcg87.sinp.msu.ru:/k1/cms/2016-07-03: No route to host 
+    gfal-copy error: 5 (Input/output error) - DESTINATION SRM_PUT_TURL error on the turl request : [SE][StatusOfPutRequest][SRM_FAILURE] error accessing lcg87.sinp.msu.ru:/k1/cms/2016-07-03: No route to host 
+    
+
+Checkwrite Result:
+Unable to check write permission in /store/user/cirkovic on site T2_RU_SINP
+Please try again later or contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_TH_CUNSTDA
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213359 and copy (dummy) file crab3checkwrite_20160703_213359.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213359.tmp 'srm://terbium.lsr.nectec.or.th:8446/srm/managerv2?SFN=/dpm/lsr.nectec.or.th/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213359/crab3checkwrite_20160703_213359.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213359.tmp => srm://terbium.lsr.nectec.or.th:8446/srm/managerv2?SFN=/dpm/lsr.nectec.or.th/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213359/crab3checkwrite_20160703_213359.tmp
+    event: [1467574441832] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574441832] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213359.tmp => srm://terbium.lsr.nectec.or.th:8446/srm/managerv2?SFN=/dpm/lsr.nectec.or.th/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213359/crab3checkwrite_20160703_213359.tmp
+    event: [1467574441832] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574442295] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Failed to ping srm://terbium.lsr.nectec.or.th:8446/srm/managerv2?SFN=/dpm/lsr.nectec.or.th/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213359/crab3checkwrite_20160703_213359.tmp
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Communication error on send, err: [SE][Mkdir][] httpg://terbium.lsr.nectec.or.th:8446/srm/managerv2: CGSI-gSOAP running on lxplus086.cern.ch reports Error reading token data header: Connection closed
+    
+    gfal-copy error: 70 (Communication error on send) - DESTINATION MAKE_PARENT srm-ifce err: Communication error on send, err: [SE][Mkdir][] httpg://terbium.lsr.nectec.or.th:8446/srm/managerv2: CGSI-gSOAP running on lxplus086.cern.ch reports Error reading token data header: Connection closed
+    
+    
+
+Checkwrite Result:
+Unable to check write permission in /store/user/cirkovic on site T2_TH_CUNSTDA
+Please try again later or contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_TR_METU
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213410 and copy (dummy) file crab3checkwrite_20160703_213410.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213410.tmp 'srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/crab3checkwrite_20160703_213410.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213410 and copied file crab3checkwrite_20160703_213410.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/crab3checkwrite_20160703_213410.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/crab3checkwrite_20160703_213410.tmp'
+Please wait...
+
+Successfully deleted file srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/crab3checkwrite_20160703_213410.tmp
+
+Attempting to delete directory srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/'
+Please wait...
+
+Successfully deleted directory srm://eymir.grid.metu.edu.tr:8446/srm/managerv2?SFN=/dpm/grid.metu.edu.tr/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213410/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_TR_METU
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_TW_NCHC
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213424 and copy (dummy) file crab3checkwrite_20160703_213424.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213424.tmp 'srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/crab3checkwrite_20160703_213424.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213424 and copied file crab3checkwrite_20160703_213424.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/crab3checkwrite_20160703_213424.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/crab3checkwrite_20160703_213424.tmp'
+Please wait...
+
+Successfully deleted file srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/crab3checkwrite_20160703_213424.tmp
+
+Attempting to delete directory srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/'
+Please wait...
+
+Successfully deleted directory srm://se01.grid.nchc.org.tw:8446/srm/managerv2?SFN=/dpm/grid.nchc.org.tw/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213424/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_TW_NCHC
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_UA_KIPT
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213452 and copy (dummy) file crab3checkwrite_20160703_213452.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213452.tmp 'srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/crab3checkwrite_20160703_213452.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213452 and copied file crab3checkwrite_20160703_213452.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/crab3checkwrite_20160703_213452.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/crab3checkwrite_20160703_213452.tmp'
+Please wait...
+
+Successfully deleted file srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/crab3checkwrite_20160703_213452.tmp
+
+Attempting to delete directory srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/'
+Please wait...
+
+Successfully deleted directory srm://cms-se0.kipt.kharkov.ua:8446/srm/managerv2?SFN=/dpm/kipt.kharkov.ua/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213452/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_UA_KIPT
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_UK_London_Brunel
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213508 and copy (dummy) file crab3checkwrite_20160703_213508.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213508.tmp 'srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/crab3checkwrite_20160703_213508.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213508 and copied file crab3checkwrite_20160703_213508.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/crab3checkwrite_20160703_213508.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/crab3checkwrite_20160703_213508.tmp'
+Please wait...
+
+Successfully deleted file srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/crab3checkwrite_20160703_213508.tmp
+
+Attempting to delete directory srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/'
+Please wait...
+
+Successfully deleted directory srm://dc2-grid-64.brunel.ac.uk:8446/srm/managerv2?SFN=/dpm/brunel.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213508/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_UK_London_Brunel
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_UK_London_IC
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213526 and copy (dummy) file crab3checkwrite_20160703_213526.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213526.tmp 'srm://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2?SFN=/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213526/crab3checkwrite_20160703_213526.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213526.tmp => srm://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2?SFN=/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213526/crab3checkwrite_20160703_213526.tmp
+    event: [1467574526703] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574526703] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213526.tmp => srm://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2?SFN=/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213526/crab3checkwrite_20160703_213526.tmp
+    event: [1467574526703] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574526720] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2: srm://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2?SFN=/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213526: Permission denied
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2: srm://gfe02.grid.hep.ph.ic.ac.uk:8443/srm/managerv2?SFN=/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213526: Permission denied
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_UK_London_IC
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_UK_SGrid_Bristol
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213533 and copy (dummy) file crab3checkwrite_20160703_213533.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213533.tmp 'gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/crab3checkwrite_20160703_213533.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213533 and copied file crab3checkwrite_20160703_213533.tmp to /store/user/cirkovic
+
+Attempting to delete file gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/crab3checkwrite_20160703_213533.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/crab3checkwrite_20160703_213533.tmp'
+Please wait...
+
+Successfully deleted file gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/crab3checkwrite_20160703_213533.tmp
+
+Attempting to delete directory gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/'
+Please wait...
+
+Successfully deleted directory gsiftp://lcgse01.phy.bris.ac.uk/dpm/phy.bris.ac.uk/home/cms/store/user/cirkovic/crab3checkwrite_20160703_213533/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_UK_SGrid_Bristol
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_UK_SGrid_RALPP
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213602 and copy (dummy) file crab3checkwrite_20160703_213602.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213602.tmp 'srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/crab3checkwrite_20160703_213602.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213602 and copied file crab3checkwrite_20160703_213602.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/crab3checkwrite_20160703_213602.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/crab3checkwrite_20160703_213602.tmp'
+Please wait...
+
+Successfully deleted file srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/crab3checkwrite_20160703_213602.tmp
+
+Attempting to delete directory srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/'
+Please wait...
+
+Successfully deleted directory srm://heplnx204.pp.rl.ac.uk:8443/srm/managerv2?SFN=/pnfs/pp.rl.ac.uk/data/cms/store/user/cirkovic/crab3checkwrite_20160703_213602/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_UK_SGrid_RALPP
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Caltech
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213624 and copy (dummy) file crab3checkwrite_20160703_213624.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213624.tmp 'srm://cit-se.ultralight.org:8443/srm/v2/server?SFN=/mnt/hadoop/store/user/cirkovic/crab3checkwrite_20160703_213624/crab3checkwrite_20160703_213624.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213624.tmp => srm://cit-se.ultralight.org:8443/srm/v2/server?SFN=/mnt/hadoop/store/user/cirkovic/crab3checkwrite_20160703_213624/crab3checkwrite_20160703_213624.tmp
+    event: [1467574586706] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574586706] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213624.tmp => srm://cit-se.ultralight.org:8443/srm/v2/server?SFN=/mnt/hadoop/store/user/cirkovic/crab3checkwrite_20160703_213624/crab3checkwrite_20160703_213624.tmp
+    event: [1467574586706] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574586886] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://cit-se.ultralight.org:8443/srm/v2/server: srm://cit-se.ultralight.org:8443/srm/v2/server?SFN=/mnt/hadoop/store/user/cirkovic/crab3checkwrite_20160703_213624: Error:/bin/mkdir: cannot create directory `/mnt/hadoop/store/user/cirkovic': Permission denied
+    Ref-u uscms4407  /bin/mkdir /mnt/hadoop/store/user/cirkovic
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://cit-se.ultralight.org:8443/srm/v2/server: srm://cit-se.ultralight.org:8443/srm/v2/server?SFN=/mnt/hadoop/store/user/cirkovic/crab3checkwrite_20160703_213624: Error:/bin/mkdir: cannot create directory `/mnt/hadoop/store/user/cirkovic': Permission denied
+    Ref-u uscms4407  /bin/mkdir /mnt/hadoop/store/user/cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_US_Caltech
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Florida
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213634 and copy (dummy) file crab3checkwrite_20160703_213634.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213634.tmp 'srm://srm.ihepa.ufl.edu:8443/srm/v2/server?SFN=/cms/data/store/user/cirkovic/crab3checkwrite_20160703_213634/crab3checkwrite_20160703_213634.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213634.tmp => srm://srm.ihepa.ufl.edu:8443/srm/v2/server?SFN=/cms/data/store/user/cirkovic/crab3checkwrite_20160703_213634/crab3checkwrite_20160703_213634.tmp
+    event: [1467574596330] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574596330] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213634.tmp => srm://srm.ihepa.ufl.edu:8443/srm/v2/server?SFN=/cms/data/store/user/cirkovic/crab3checkwrite_20160703_213634/crab3checkwrite_20160703_213634.tmp
+    event: [1467574596330] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574596480] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm.ihepa.ufl.edu:8443/srm/v2/server: srm://srm.ihepa.ufl.edu:8443/srm/v2/server?SFN=/cms/data/store/user/cirkovic/crab3checkwrite_20160703_213634: Error:/bin/mkdir: cannot create directory `/cms/data/store/user/cirkovic': Permission denied
+    Refbestman2 -u cms4356  /bin/mkdir /cms/data/store/user/cirkovic
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm.ihepa.ufl.edu:8443/srm/v2/server: srm://srm.ihepa.ufl.edu:8443/srm/v2/server?SFN=/cms/data/store/user/cirkovic/crab3checkwrite_20160703_213634: Error:/bin/mkdir: cannot create directory `/cms/data/store/user/cirkovic': Permission denied
+    Refbestman2 -u cms4356  /bin/mkdir /cms/data/store/user/cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_US_Florida
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_MIT
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213643 and copy (dummy) file crab3checkwrite_20160703_213643.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213643.tmp 'srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643/crab3checkwrite_20160703_213643.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213643.tmp => srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643/crab3checkwrite_20160703_213643.tmp
+    event: [1467574607172] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574607172] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213643.tmp => srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643/crab3checkwrite_20160703_213643.tmp
+    event: [1467574607173] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574608199] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Failed to ping srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643/crab3checkwrite_20160703_213643.tmp
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://se01.cmsaf.mit.edu:8443/srm/v2/server: srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643: not mapped./DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+    
+    gfal-copy error: 13 (Permission denied) - DESTINATION MAKE_PARENT srm-ifce err: Permission denied, err: [SE][Mkdir][SRM_AUTHORIZATION_FAILURE] httpg://se01.cmsaf.mit.edu:8443/srm/v2/server: srm://se01.cmsaf.mit.edu:8443/srm/v2/server?SFN=/mnt/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213643: not mapped./DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_US_MIT
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Nebraska
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213657 and copy (dummy) file crab3checkwrite_20160703_213657.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213657.tmp 'gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/crab3checkwrite_20160703_213657.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213657 and copied file crab3checkwrite_20160703_213657.tmp to /store/user/cirkovic
+
+Attempting to delete file gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/crab3checkwrite_20160703_213657.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/crab3checkwrite_20160703_213657.tmp'
+Please wait...
+
+Successfully deleted file gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/crab3checkwrite_20160703_213657.tmp
+
+Attempting to delete directory gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/'
+Please wait...
+
+Successfully deleted directory gsiftp://red-gridftp.unl.edu//mnt/hadoop/user/uscms01/pnfs/unl.edu/data4/cms/store/user/cirkovic/crab3checkwrite_20160703_213657/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_US_Nebraska
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Purdue
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213719 and copy (dummy) file crab3checkwrite_20160703_213719.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213719.tmp 'srm://srm.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/cirkovic/crab3checkwrite_20160703_213719/crab3checkwrite_20160703_213719.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213719.tmp => srm://srm.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/cirkovic/crab3checkwrite_20160703_213719/crab3checkwrite_20160703_213719.tmp
+    event: [1467574641357] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574641358] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213719.tmp => srm://srm.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/cirkovic/crab3checkwrite_20160703_213719/crab3checkwrite_20160703_213719.tmp
+    event: [1467574641358] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574641608] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm.rcac.purdue.edu:8443/srm/v2/server: srm://srm.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/cirkovic/crab3checkwrite_20160703_213719: Error:/bin/mkdir: cannot create directory `/mnt/hadoop/store/user/cirkovic': Permission denied
+    Ref-u cms0241  /bin/mkdir /mnt/hadoop/store/user/cirkovic
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://srm.rcac.purdue.edu:8443/srm/v2/server: srm://srm.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/cirkovic/crab3checkwrite_20160703_213719: Error:/bin/mkdir: cannot create directory `/mnt/hadoop/store/user/cirkovic': Permission denied
+    Ref-u cms0241  /bin/mkdir /mnt/hadoop/store/user/cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_US_Purdue
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_UCSD
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213730 and copy (dummy) file crab3checkwrite_20160703_213730.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213730.tmp 'srm://bsrm-3.t2.ucsd.edu:8443/srm/v2/server?SFN=/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213730/crab3checkwrite_20160703_213730.tmp'
+Please wait...
+Failed running copy command
+  Stdout:
+    Copying 85 bytes file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213730.tmp => srm://bsrm-3.t2.ucsd.edu:8443/srm/v2/server?SFN=/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213730/crab3checkwrite_20160703_213730.tmp
+    event: [1467574652598] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+    event: [1467574652598] BOTH   GFAL2:CORE:COPY	LIST:ITEM	file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213730.tmp => srm://bsrm-3.t2.ucsd.edu:8443/srm/v2/server?SFN=/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213730/crab3checkwrite_20160703_213730.tmp
+    event: [1467574652599] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+    event: [1467574652960] BOTH   SRM	PREPARE:ENTER	
+    
+  Stderr:
+    WARNING Transfer failed with: DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://bsrm-3.t2.ucsd.edu:8443/srm/v2/server: srm://bsrm-3.t2.ucsd.edu:8443/srm/v2/server?SFN=/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213730: Error:/bin/mkdir: cannot create directory `/hadoop/cms/store/user/cirkovic': Permission denied
+    Ref-u uscms  /bin/mkdir /hadoop/cms/store/user/cirkovic
+    
+    gfal-copy error: 5 (Input/output error) - DESTINATION MAKE_PARENT srm-ifce err: Input/output error, err: [SE][Mkdir][SRM_FAILURE] httpg://bsrm-3.t2.ucsd.edu:8443/srm/v2/server: srm://bsrm-3.t2.ucsd.edu:8443/srm/v2/server?SFN=/hadoop/cms/store/user/cirkovic/crab3checkwrite_20160703_213730: Error:/bin/mkdir: cannot create directory `/hadoop/cms/store/user/cirkovic': Permission denied
+    Ref-u uscms  /bin/mkdir /hadoop/cms/store/user/cirkovic
+    
+    
+
+Checkwrite Result:
+Error: Unable to write in /store/user/cirkovic on site T2_US_UCSD
+       You may want to contact the site administrators sending them the 'crab checkwrite' output as printed above.
+Note: You cannot write to a site if you did not ask permission.
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Vanderbilt
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213741 and copy (dummy) file crab3checkwrite_20160703_213741.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213741.tmp 'srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/crab3checkwrite_20160703_213741.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213741 and copied file crab3checkwrite_20160703_213741.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/crab3checkwrite_20160703_213741.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/crab3checkwrite_20160703_213741.tmp'
+Please wait...
+
+Successfully deleted file srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/crab3checkwrite_20160703_213741.tmp
+
+Attempting to delete directory srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/'
+Please wait...
+
+Successfully deleted directory srm://se1.accre.vanderbilt.edu:6288/srm/v2/server?SFN=/lio/lfs/cms/store/user/cirkovic/crab3checkwrite_20160703_213741/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_US_Vanderbilt
+
+Will check write permission in the default location /store/user/<username>
+Retrieving DN from proxy...
+DN is: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=cirkovic/CN=707709/CN=Predrag Cirkovic
+Retrieving username from SiteDB...
+Username is: cirkovic
+Validating LFN /store/user/cirkovic...
+LFN /store/user/cirkovic is valid.
+Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+Will check write permission in /store/user/cirkovic on site T2_US_Wisconsin
+
+Attempting to create (dummy) directory crab3checkwrite_20160703_213806 and copy (dummy) file crab3checkwrite_20160703_213806.tmp to /store/user/cirkovic
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-copy -p -v -t 180 file:///afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab3checkwrite_20160703_213806.tmp 'srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/crab3checkwrite_20160703_213806.tmp'
+Please wait...
+
+Successfully created directory crab3checkwrite_20160703_213806 and copied file crab3checkwrite_20160703_213806.tmp to /store/user/cirkovic
+
+Attempting to delete file srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/crab3checkwrite_20160703_213806.tmp
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -v -t 180 'srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/crab3checkwrite_20160703_213806.tmp'
+Please wait...
+
+Successfully deleted file srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/crab3checkwrite_20160703_213806.tmp
+
+Attempting to delete directory srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/
+
+Executing command: env -i X509_USER_PROXY=/tmp/x509up_u56359 gfal-rm -r -v -t 180 'srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/'
+Please wait...
+
+Successfully deleted directory srm://cmssrm.hep.wisc.edu:8443/srm/v2/server?SFN=/hdfs/store/user/cirkovic/crab3checkwrite_20160703_213806/
+
+Checkwrite Result:
+Success: Able to write in /store/user/cirkovic on site T2_US_Wisconsin
+

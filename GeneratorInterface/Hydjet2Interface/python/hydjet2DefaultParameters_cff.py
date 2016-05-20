@@ -14,9 +14,9 @@ collisionParameters2760GeV = cms.PSet(
 	fR 	= cms.double(13.45), 	# Maximal transverse radius at thermal freeze-out for central collisions, fR [fm]
 )
 
-collisionParameters5020GeV = cms.PSet(
+collisionParameters5100GeV = cms.PSet(
 	fAw = cms.double(208.0), ## beam/target atomic number
-	fSqrtS = cms.double(5020.0),
+	fSqrtS = cms.double(5100.0),
 	fUmax 	= cms.double(1.35), 	# Maximal transverse flow rapidity at thermal freeze-out for central collisions, fUmax
 	fPtmin 	= cms.double(10.), 	# Minimal pt of parton-parton scattering in PYTHIA event, fPtmin [GeV/c] 
 	fT0 = cms.double(1.1), 		# Initial QGP temperature for central Pb+Pb collisions in mid-rapidity, fT0 [GeV]; allowed range [0.2,2.0]GeV;
@@ -26,10 +26,34 @@ collisionParameters5020GeV = cms.PSet(
 	fR 	= cms.double(13.9), 	# Maximal transverse radius at thermal freeze-out for central collisions, fR [fm]
 )
 
+collisionParameters5020GeV = cms.PSet(
+    fAw = cms.double(208.0), ## beam/target atomic number
+    fSqrtS = cms.double(5020.0),
+    fUmax   = cms.double(1.35),     # Maximal transverse flow rapidity at thermal freeze-out for central collisions, fUmax
+    fPtmin  = cms.double(10.),  # Minimal pt of parton-parton scattering in PYTHIA event, fPtmin [GeV/c]
+    fT0 = cms.double(1.1),      # Initial QGP temperature for central Pb+Pb collisions in mid-rapidity, fT0 [GeV]; allowed range [0.2,2.0]GeV;
+
+    ### Volume parameters at thermal freeze-out ###
+    fTau    = cms.double(13.2),     # Proper time proper at thermal freeze-out for central collisions, fTau [fm/c]
+    fR  = cms.double(13.9),     # Maximal transverse radius at thermal freeze-out for central collisions, fR [fm]
+)
+
 qgpParameters = cms.PSet(
 	fTau0 	= cms.double(0.1), 	# Proper QGP formation time in fm/c, fTau0 (0.01<fTau0<10)
 	fNf 	= cms.int32(0), 	# Number of active quark flavours in QGP, fNf (0, 1, 2 or 3)
 )
+
+#collisionParameters5020_1GeV = cms.PSet(
+#    fAw = cms.double(208.0),    # beam/target atomic number
+#    fSqrtS = cms.double(5020.0),
+#    fUmax   = cms.double(1.265),    # Maximal transverse flow rapidity at thermal freeze-out for central collisions, fUmax
+#    fPtmin  = cms.double(8.2),  # Minimal pt of parton-parton scattering in PYTHIA event, fPtmin [GeV/c]
+#    fT0 = cms.double(1.),       # Initial QGP temperature for central Pb+Pb collisions in mid-rapidity, fT0 [GeV]; allowed range [0.2,2.0]GeV;
+#
+#    ### Volume parameters at thermal freeze-out ###
+#    fTau    = cms.double(12.2),     # Proper time proper at thermal freeze-out for central collisions, fTau [fm/c]
+#    fR  = cms.double(13.45),    # Maximal transverse radius at thermal freeze-out for central collisions, fR [fm]
+#)
 
 hydjet2Parameters = cms.PSet(
 	### Thermodinamic parameters at chemical freez-out ###

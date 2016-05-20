@@ -1,0 +1,76 @@
+
+Traceback (most recent call last):
+  File "../../run_matrix_np.py", line 484, in <module>
+    main()
+  File "../../run_matrix_np.py", line 172, in main
+    for filename in os.listdir(working_folder):
+OSError: [Errno 2] No such file or directory: '30_40/30_40/data_n2'
+
+Traceback (most recent call last):
+  File "../../run_matrix_np.py", line 484, in <module>
+    main()
+  File "../../run_matrix_np.py", line 172, in main
+    for filename in os.listdir(working_folder):
+OSError: [Errno 2] No such file or directory: '30_40/30_40/data_n3'
+Traceback (most recent call last):
+  File "../../calculate_modes.py", line 178, in <module>
+    main()
+  File "../../calculate_modes.py", line 59, in main
+    f1=open( working_folder+"/"+sub_folder+"/simulated_eigenvalues_"+EXT, "r")
+IOError: [Errno 2] No such file or directory: '30_40/30_40/data_n2/simulated_eigenvalues_7x7.json'
+Traceback (most recent call last):
+  File "../../calculate_modes.py", line 178, in <module>
+    main()
+  File "../../calculate_modes.py", line 59, in main
+    f1=open( working_folder+"/"+sub_folder+"/simulated_eigenvalues_"+EXT, "r")
+IOError: [Errno 2] No such file or directory: '30_40/30_40/data_n3/simulated_eigenvalues_7x7.json'
+Traceback (most recent call last):
+  File "../../run_error.py", line 145, in <module>
+    main()
+  File "../../run_error.py", line 52, in main
+    f1=open(working_folder+"/simulated_eigenvalues_7x7.json", "r")  # 1-10 format
+IOError: [Errno 2] No such file or directory: '30_40/30_40/data_n2/simulated_eigenvalues_7x7.json'
+Traceback (most recent call last):
+  File "../../run_error.py", line 145, in <module>
+    main()
+  File "../../run_error.py", line 52, in main
+    f1=open(working_folder+"/simulated_eigenvalues_7x7.json", "r")  # 1-10 format
+IOError: [Errno 2] No such file or directory: '30_40/30_40/data_n3/simulated_eigenvalues_7x7.json'
+CALCULATING MATRIX.........n23
+
+
+finished process
+##############################
+
+
+MATRIX PERMUTATION.....n2
+
+ 
+MATRIX PERMUTATION.....n3
+
+ 
+finished process
+##############################
+
+
+MODES.....n2
+
+ 
+MODES.....n3
+
+ 
+finished process
+##############################
+
+
+MODES.....n2
+
+ 
+MODES.....n3
+
+ 
+finished process 
+
+
+
+

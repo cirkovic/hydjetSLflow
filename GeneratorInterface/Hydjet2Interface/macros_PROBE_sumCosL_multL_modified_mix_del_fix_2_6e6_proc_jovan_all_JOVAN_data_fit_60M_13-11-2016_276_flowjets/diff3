@@ -1,0 +1,62 @@
+76c76
+<    if (check=="P5"|| check=="P6" || check=="P7" || check=="P8") {
+---
+>    if (check=="P7" || check=="P8") {
+80c80
+<        hist->GetXaxis()->SetTitleOffset(2.47);
+---
+>        hist->GetXaxis()->SetTitleOffset(4.67);
+84c84
+<    if (check=="P1"|| check=="P5" ) {
+---
+>    if (check=="P1" || check=="P3" || check=="P5" || check=="P7") {
+87c87
+<       hist->GetYaxis()->SetTitleOffset(2.14);
+---
+>       hist->GetYaxis()->SetTitleOffset(5.14);
+378c378
+<    TCanvas *cc1 = new TCanvas("cc1", "cc1",40,40,935,648);
+---
+>    TCanvas *cc1 = new TCanvas("cc1", "cc1",40,40,500,1300);
+388,389c388,389
+<    Double_t W  = 0.233;          // Pad Width
+<    Int_t    Nx = 4;            // Number of pads along X
+---
+>    Double_t W  = 0.43;          // Pad Width
+>    Int_t    Nx = 2;            // Number of pads along X
+391c391
+<    Double_t dw = (W*0.043)/4;
+---
+>    Double_t dw = (W*0.043)/2;
+727c727
+<    MakeHisto("P1", 0, 0.512, Xm+W+dw, 1, 0.23, 0, 0.25, 0);  // PLOT=1  UCC
+---
+>    MakeHisto("P1", 0, 0.728, Xm+W+dw, 1, 0.26, 0, 0.25, 0);  // PLOT=1  UCC
+752c752
+<    MakeHisto("P2", Xm+W+dw, 0.512, Xm+2*W+dw, 1, 0, 0, 0.25, 0, 1);  //  PLOT=2  0-5
+---
+>    MakeHisto("P2", Xm+W+dw, 0.728, Xm+2*W+dw, 1, 0, 1, 0.25, 0, 1);  //  PLOT=2  0-5
+767c767
+<    MakeHisto("P3", Xm+2*W+dw, 0.512, Xm+3*W+dw, 1, 0, 0, 0.25, 0, 1);  //  PLOT=3   0-10
+---
+>    MakeHisto("P3", 0, 0.512, Xm+W+dw, 0.728, 0.26, 0, 0, 0);  //  PLOT=3   0-10
+782c782
+<    MakeHisto("P4", Xm+3*W+dw, 0.512, Xm+4*W-dw, 1, 0, 0.01, 0.25, 0, 1);  //  PLOT=4  10-20
+---
+>    MakeHisto("P4", Xm+W+dw, 0.512, Xm+2*W+dw, 0.728, 0, 1, 0, 0, 1);  //  PLOT=4  10-20
+799c799
+<    MakeHisto("P5", 0, 0.02, Xm+W+dw, 0.512, 0.23, 0, 0, 0.25);  //  PLOT=5
+---
+>    MakeHisto("P5", 0, 0.296, Xm+W+dw, 0.512, 0.26, 0, 0, 0);  //  PLOT=5
+815c815
+<    MakeHisto("P6", Xm+W+dw, 0.02, Xm+2*W+dw, 0.512, 0, 0, 0, 0.25, 1);  //  PLOT=6
+---
+>    MakeHisto("P6", Xm+W+dw, 0.296, Xm+2*W+dw, 0.512, 0, 1, 0, 0, 1);  //  PLOT=6
+831c831
+<    MakeHisto("P7", Xm+2*W+dw, 0.02, Xm+3*W+dw, 0.512, 0, 0, 0, 0.25, 1);  //  PLOT=7
+---
+>    MakeHisto("P7", 0, 0.02, Xm+W+dw, 0.296, 0.26, 0, 0, 0.26);  //  PLOT=7
+847c847
+<    MakeHisto("P8", Xm+3*W+dw, 0.02, Xm+4*W-dw, 0.512, 0, 0.01, 0, 0.25, 1);  //  PLOT=8
+---
+>    MakeHisto("P8", Xm+W+dw, 0.02, Xm+2*W+dw, 0.296, 0, 1, 0, 0.26, 1);  //  PLOT=8

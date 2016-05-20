@@ -1,0 +1,146 @@
+   ext3="n2_502";
+   ext4="n3_502";
+
+   // UCC
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/00_02.json")).c_str());
+   INPUT["mode1_UCC"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_UCC_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_UCC"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_UCC_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/00_02.json")).c_str());
+   INPUT["fit_UCC"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_UCC_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/00_02.json")).c_str());
+   INPUT["mode1_UCC"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_UCC_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_UCC"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_UCC_error"+ext4]=ReadData(document, "mode2_error");
+
+   // 0-5
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/00_05.json")).c_str());
+   INPUT["mode1_00_05"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_00_05_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_00_05"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_00_05_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/00_05.json")).c_str());
+   INPUT["fit_00_05"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_00_05_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/00_05.json")).c_str());
+   INPUT["mode1_00_05"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_00_05_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_00_05"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_00_05_error"+ext4]=ReadData(document, "mode2_error");
+   ////////////////////////////////////
+
+   // 0-10
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/00_10.json")).c_str());
+   INPUT["mode1_00_10"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_00_10_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_00_10"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_00_10_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/00_10.json")).c_str());
+   INPUT["fit_00_10"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_00_10_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/00_10.json")).c_str());
+   INPUT["mode1_00_10"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_00_10_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_00_10"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_00_10_error"+ext4]=ReadData(document, "mode2_error");
+
+   /////////////////////////////////////
+
+   // 10-20
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/10_20.json")).c_str());
+   INPUT["mode1_10_20"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_10_20_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_10_20"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_10_20_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/10_20.json")).c_str());
+   INPUT["fit_10_20"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_10_20_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/10_20.json")).c_str());
+   INPUT["mode1_10_20"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_10_20_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_10_20"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_10_20_error"+ext4]=ReadData(document, "mode2_error");
+
+   ////////////////////////////////////////////
+
+   // 20-30
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/20_30.json")).c_str());
+   INPUT["mode1_20_30"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_20_30_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_20_30"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_20_30_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/20_30.json")).c_str());
+   INPUT["fit_20_30"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_20_30_error"+ext3]=ReadData(document, "mode1_error");
+
+   // 20-30 Z CUT
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/20_30.json")).c_str());
+   INPUT["mode1_20_30"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_20_30_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_20_30"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_20_30_error"+ext4]=ReadData(document, "mode2_error");
+
+   ////////////////////////////////////////////
+
+   // 30-40
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/30_40.json")).c_str());
+   INPUT["mode1_30_40"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_30_40_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_30_40"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_30_40_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/30_40.json")).c_str());
+   INPUT["fit_30_40"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_30_40_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/30_40.json")).c_str());
+   INPUT["mode1_30_40"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_30_40_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_30_40"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_30_40_error"+ext4]=ReadData(document, "mode2_error");
+
+   /////////////////////////////////////////////////////
+
+   // 40-50
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/40_50.json")).c_str());
+   INPUT["mode1_40_50"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_40_50_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_40_50"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_40_50_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/40_50.json")).c_str());
+   INPUT["fit_40_50"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_40_50_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/40_50.json")).c_str());
+   INPUT["mode1_40_50"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_40_50_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_40_50"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_40_50_error"+ext4]=ReadData(document, "mode2_error");
+
+   ///////////////////////////////////////////////////////
+
+   // 50-60
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n2/50_60.json")).c_str());
+   INPUT["mode1_50_60"+ext3]=ReadData(document, "mode1");
+   INPUT["mode1_50_60_error"+ext3]=ReadData(document, "mode1_error");
+   INPUT["mode2_50_60"+ext3]=ReadData(document, "mode2");
+   INPUT["mode2_50_60_error"+ext3]=ReadData(document, "mode2_error");
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/FIT/")+string(s)+string("/")+string(deta)+string("/n2/50_60.json")).c_str());
+   INPUT["fit_50_60"+ext3]=ReadData(document, "mode1");
+   INPUT["fit_50_60_error"+ext3]=ReadData(document, "mode1_error");
+
+   document=READFILE((string("../macros_PROBE_sumCosL_multL_modified_mix_del_fix_2_6e6_proc_jovan_all_JOVAN_data_fit_my_502_11-07-2016/DATA/")+string(s)+string("/")+string(deta)+string("/n3/50_60.json")).c_str());
+   INPUT["mode1_50_60"+ext4]=ReadData(document, "mode1");
+   INPUT["mode1_50_60_error"+ext4]=ReadData(document, "mode1_error");
+   INPUT["mode2_50_60"+ext4]=ReadData(document, "mode2");
+   INPUT["mode2_50_60_error"+ext4]=ReadData(document, "mode2_error");
+
+   /////////////////////////////
+   ///////////////////////////////////////////////////
+ 

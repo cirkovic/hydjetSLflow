@@ -1,0 +1,13 @@
+#! /bin/sh
+
+$LSB_TRAPSIGS
+$LSB_RCP1
+$LSB_RCP2
+$LSB_RCP3
+# LSBATCH: User input
+/usr/local/lsf/etc/job_starter '/afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab_getoutput_job_new_1.sh /afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab_20160725_150038 root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_8.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_16.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_25.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_28.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_14.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_29.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_36.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_17.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_9.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_19.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_33.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_6.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_11.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_24.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_15.root root://cms-xrd-global.cern.ch//store/user/cirkovic/CRAB_PrivateMC/crab_20160725_150038/160725_130052/0000/output_4000_2_50-60_2.0_502_10.root'
+ExitStat=$?
+wait
+# LSBATCH: End user input
+true
+exit `expr $? "|" $ExitStat`

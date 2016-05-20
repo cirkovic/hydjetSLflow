@@ -1,0 +1,81 @@
+CRAB project directory:		/afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab_projects/crab_20160521_164200
+Task name:			160521_144207:cirkovic_crab_20160521_164200
+Grid scheduler:			crab3test-3@vocms096.cern.ch
+Task status:			SUBMITTED
+Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=crab&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=160521_144207%3Acirkovic_crab_20160521_164200
+
+Jobs status:			failed         42.7% (256/600)
+				finished        6.2% ( 37/600)
+				running        48.3% (290/600)
+				transferring    2.8% ( 17/600)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary:
+
+252 jobs failed with exit code 50660:
+
+	252 jobs failed with following error message: (for example, job 4)
+
+		Not retrying job due to excessive memory use (job automatically killed on the worker node)
+
+  4 jobs failed with exit code 8022:
+
+	  4 jobs failed with following error message: (for example, job 105)
+
+		Error while running CMSSW:
+		Fatal Exception
+		An exception of category 'FatalRootError' occurred while
+		   [0] Processing run: 1 lumi: 1 event: 1
+		   [1] Running path 'p'
+		   [2] Calling event method for module Hydjet2Analyzer_new/'ana'
+		   Additional Info:
+		      [a] Fatal Root Error: @SUB=TInterpreter::AutoParse
+		Error parsing payload code for class TStorageFactoryFile with content:
+		#ifndef G__VECTOR_HAS_CLASS_ITERATOR
+		  #define G__VECTOR_HAS_CLASS_ITERATOR 1
+		#endif
+		#ifndef CMS_DICT_IMPL
+		  #define CMS_DICT_IMPL 1
+		#endif
+		#ifndef _REENTRANT
+		  #define _REENTRANT 1
+		#endif
+		#ifndef GNUSOURCE
+		  #define GNUSOURCE 1
+		#endif
+		#ifndef __STRICT_ANSI__
+		  #define __STRICT_ANSI__ 1
+		#endif
+		#ifndef GNU_GCC
+		  #define GNU_GCC 1
+		#endif
+		#ifndef _GNU_SOURCE
+		  #define _GNU_SOURCE 1
+		#endif
+		#ifndef CMSSW_GIT_HASH
+		  #define CMSSW_GIT_HASH "CMSSW_7_5_8"
+		#endif
+		#ifndef PROJECT_NAME
+		  #define PROJECT_NAME "CMSSW"
+		#endif
+		#ifndef PROJECT_VERSION
+		  #define PROJECT_VERSION "CMSSW_7_5_8"
+		#endif
+		#ifndef BOOST_SPIRIT_THREADSAFE
+		  #define BOOST_SPIRIT_THREADSAFE 1
+		#endif
+		#ifndef PHOENIX_THREADSAFE
+		  #define PHOENIX_THREADSAFE 1
+		#endif
+		#ifndef CMSSW_REFLEX_DICT
+		  #define CMSSW_REFLEX_DICT 1
+		#endif
+		#define _BACKWARD_BACKWARD_WARNING_H
+		#include "IOPool/TFileAdaptor/interface/TStorageFactoryFile.h"
+		#include "IOPool/TFileAdaptor/interface/TStorageFactorySystem.h"
+		#include "IOPool/TFileAdaptor/src/TFileAdaptor.h"
+		#undef  _BACKWARD_BACKWARD_WARNING_H
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+Log file is /afs/cern.ch/work/c/cirkovic/hydjet/CMSSW_7_5_8_patch4/src/GeneratorInterface/Hydjet2Interface/test/crab_projects/crab_20160521_164200/crab.log

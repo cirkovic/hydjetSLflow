@@ -1,0 +1,67 @@
+Keyboard Interrupted
+
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/bin/crab", line 158, in <module>
+    client = CRABClient()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/bin/crab", line 49, in __init__
+    self.subCommands = getAvailCommands()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 343, in getAvailCommands
+    subcmdplugins = getPlugins(subcmdpath, subcmdname, ['SubCommand'])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 272, in getPlugins
+    mod = __import__('%s.%s.%s' % (namespace, plugins, el[1]), globals(), locals(), el[1])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/Commands/checkusername.py", line 1, in <module>
+    from CRABClient.Commands.SubCommand import SubCommand
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 4, in <module>
+    import json
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/__init__.py", line 99, in <module>
+    """
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/bin/crab", line 158, in <module>
+    client = CRABClient()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/bin/crab", line 49, in __init__
+    self.subCommands = getAvailCommands()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 343, in getAvailCommands
+    subcmdplugins = getPlugins(subcmdpath, subcmdname, ['SubCommand'])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 272, in getPlugins
+    mod = __import__('%s.%s.%s' % (namespace, plugins, el[1]), globals(), locals(), el[1])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/Commands/checkusername.py", line 1, in <module>
+    from CRABClient.Commands.SubCommand import SubCommand
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1606-comp/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 4, in <module>
+    import json
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/__init__.py", line 108, in <module>
+    from .decoder import JSONDecoder
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/decoder.py", line 7, in <module>
+    from json import scanner
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/scanner.py", line 13, in <module>
+    (re.VERBOSE | re.MULTILINE | re.DOTALL))
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/re.py", line 240, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 502, in compile
+    code = _code(p, flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 487, in _code
+    _compile(code, p.data, flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 101, in _compile
+    _compile(code, av[1], flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 101, in _compile
+    _compile(code, av[1], flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 142, in _compile
+    _compile(code, av, flags)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 57, in _compile
+    _compile_charset(av, flags, code, fixup)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/sre_compile.py", line 183, in _compile_charset
+    for op, av in _optimize_charset(charset, fixup):
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/py2-pandas/0.16.0-eccfad/lib/python2.7/site-packages/site.py", line 74, in <module>
+    __boot()
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/py2-pandas/0.16.0-eccfad/lib/python2.7/site-packages/site.py", line 2, in __boot
+    import sys, os, os.path
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw-patch/CMSSW_7_5_8_patch4/external/slc6_amd64_gcc491/bin/../../../../../../external/python/2.7.6-eccfad/lib/python2.7/os.py", line 22, in <module>
+    """
+KeyboardInterrupt
+

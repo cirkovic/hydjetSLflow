@@ -1,0 +1,91 @@
+
+
+Traceback (most recent call last):
+  File "../../run_matrix.py", line 519, in <module>
+    main()
+  File "../../run_matrix.py", line 385, in main
+    COMPONENT_VECTORS=GET_COMPONENT_VECTORS(eigenvectors, DIM) # regroup eigenvectors in sets that contain 
+  File "../../run_matrix.py", line 71, in GET_COMPONENT_VECTORS
+    sub_temp=vectors[(ei)][alpha]
+KeyError: 13
+
+Traceback (most recent call last):
+  File "../../run_matrix.py", line 519, in <module>
+    main()
+  File "../../run_matrix.py", line 226, in main
+    json.dump(clean_eigenvectors, f_clean_eigenvectors, indent=2)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/python/2.7.6-eccfad/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: (0.8546992006692672+0j) is not JSON serializable
+Traceback (most recent call last):
+  File "../../calculate_modes.py", line 205, in <module>
+    main()
+  File "../../calculate_modes.py", line 59, in main
+    f1=open( working_folder+"/"+sub_folder+"/simulated_eigenvalues_"+EXT, "r")
+IOError: [Errno 2] No such file or directory: '50_60/50_60/data_n2/simulated_eigenvalues_14x14.json'
+Traceback (most recent call last):
+  File "../../calculate_modes.py", line 205, in <module>
+    main()
+  File "../../calculate_modes.py", line 59, in main
+    f1=open( working_folder+"/"+sub_folder+"/simulated_eigenvalues_"+EXT, "r")
+IOError: [Errno 2] No such file or directory: '50_60/50_60/data_n3/simulated_eigenvalues_14x14.json'
+Traceback (most recent call last):
+  File "../../run_error.py", line 145, in <module>
+    main()
+  File "../../run_error.py", line 52, in main
+    f1=open(working_folder+"/simulated_eigenvalues_7x7.json", "r")  # 1-10 format
+IOError: [Errno 2] No such file or directory: '50_60/50_60/data_n2/simulated_eigenvalues_7x7.json'
+Traceback (most recent call last):
+  File "../../run_error.py", line 145, in <module>
+    main()
+  File "../../run_error.py", line 52, in main
+    f1=open(working_folder+"/simulated_eigenvalues_7x7.json", "r")  # 1-10 format
+IOError: [Errno 2] No such file or directory: '50_60/50_60/data_n3/simulated_eigenvalues_7x7.json'
+CALCULATING MATRIX.........n23
+
+
+finished process
+##############################
+
+
+MATRIX PERMUTATION.....n2
+
+ 
+MATRIX PERMUTATION.....n3
+
+ 
+finished process
+##############################
+
+
+MODES.....n2
+
+ 
+MODES.....n3
+
+ 
+finished process
+##############################
+
+
+MODES.....n2
+
+ 
+MODES.....n3
+
+ 
+finished process 
+
+
+
+
